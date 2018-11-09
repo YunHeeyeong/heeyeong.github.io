@@ -19,7 +19,7 @@ print int(num1)*int(num2)
 
 
 ```python
-#Return 값이 있는 함수와 없는 함수
+# Return 값이 있는 함수와 없는 함수
 # 함수가 실행되면 리턴값이 존재하므로 결과값을 사용할 수 있다.
 def mul(val1, val2):
     return int(val1)*int(val2)
