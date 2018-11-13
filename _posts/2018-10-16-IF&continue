@@ -1,0 +1,36 @@
+
+
+```
+# IF
+
+# 1 < number < 50
+number = 25
+guess = int(raw_input('Enter an integer : '))
+
+if guess == number:
+    # New block starts here
+    print 'Congratulations, you guessed it.'
+    print '(but you do not win any prizes!)'
+    # New blocks ends here
+elif guess < number:
+    # Another block
+    print 'No, it is a little higher than that'
+    # You can do whatever you want in a block
+else:
+    print 'No, it is a little lower than that'
+    #You nust have guessed > number to reach here
+    
+print 'Done'
+# This last statement is always executed,
+# after tha if statement is executed.
+
+```
+
+    Enter an integer : 25
+    Congratulations, you guessed it.
+    (but you do not win any prizes!)
+    Done
+    
+
+
+```
